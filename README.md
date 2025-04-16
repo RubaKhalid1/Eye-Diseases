@@ -10,7 +10,7 @@ Despite the critical importance of early diagnosis, many eye diseases remain und
 The dataset has 10 clasess: Diabetic Retinopathy, Glaucoma, Macular Scar, Optic Disc Edema, Central Serous Chorioretinopathy (CSCR), Retinal Detachment, Retinitis Pigmentosa, Myopia,Pterygium , and Healthy. The total of images 5335  were collected from Anwara Hamida Eye Hospital in Faridpur and BNS Zahrul Haque Eye Hospital in Faridpur district with the help of the hospital authorities. Then from these original images, a total of 15090 augmented images are produced by using brightness to adjusts the brightness of the input image to increase the number of data to make the dataset balance. The dataset can be downloaded here: https://data.mendeley.com/datasets/s9bfhswzjb/1
 ### Example 
 
-![image](download.png)
+![image](Images/download.png)
  
 
 ## Model
@@ -28,13 +28,13 @@ Validation Accuracy: 92.67%
 Test Accuracy: 92.91%
 
 These results suggest that the model has effectively learned the features from the training data while maintaining strong generalization to unseen data. The close alignment between validation and test accuracy reflects a well-trained and balanced model with no overfitting.
-![image](download5.png)
+![image](Images/download5.png)
 
 ### Prediction
-![image](download6.png) 
-![image](download3.png) 
-![image](download7.png)
-![image](download8.png)
+![image](Images/download6.png) 
+![image](Images/download3.png) 
+![image](Images/download7.png)
+![image](Images/download8.png)
 
 ## Conclusion
 The system, powered by a deep learning model, successfully classified 10 types of eye diseases with high accuracy. Achieving a training accuracy of 97.49%, validation accuracy of 92.67%, and test accuracy of 92.91%, the results demonstrate that the model is both effective and reliable. The system performs accurately and shows strong generalization on unseen data. This highlights the potential of deep learning in supporting early detection and diagnosis of eye diseases, ultimately contributing to improved patient care.
